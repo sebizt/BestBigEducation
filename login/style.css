@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Ubuntu", sans-serif;
 }
 
 body {
@@ -12,10 +11,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Cafe24Ssurround';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
 }
 
 .login-form {
   width: calc(100% - 20px);
+  border-radius: 6px;
   max-width: 500px;
   background-color: #fff;
   padding: 30px 40px;
@@ -107,6 +109,10 @@ body {
   cursor: pointer;
 }
 
+.checkbox input:checked + .fa-check {
+  opacity: 1;
+}
+
 .checkbox .fa-check {
   position: absolute;
   color: #fff;
@@ -130,15 +136,18 @@ body {
   width: 400px;
   height: 40px;
   margin: 40px auto;
-  background-color: #bc252a;
-  color: #fff;
+  background-color: #B3D9FF;
+  color: #000;
   font-size: 1.1rem;
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  box-shadow: 3px 3px 3px #ddd;
   transition: .3s linear;
 }
-
+.btn:active{
+  box-shadow: none;
+}
 .btn:hover {
   opacity: .85;
 }
@@ -148,7 +157,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 1.1rem;
-  color: #555;
+  color: #cc7608;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 8px;
@@ -156,7 +165,7 @@ body {
 }
 
 .login-form a:hover {
-  color: #cc7608;
+  color: #ddd;
 }
 
 .btn:disabled {
