@@ -14,9 +14,11 @@ body {
   font-family: 'Cafe24Ssurround';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
 }
+
 h3 {
   text-align: center;
 }
+
 .login-form {
   width: calc(100% - 20px);
   border-radius: 6px;
@@ -126,7 +128,7 @@ h3 {
 }
 
 .checkbox input:checked {
-  background-color: #cc7608;
+  background-color: #ffbc44;
 }
 
 .checkbox input:checked + .fa-check {
@@ -159,7 +161,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   font-size: 1.1rem;
-  color: #cc7608;
+  color: #ffbc44;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 8px;

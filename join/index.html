@@ -1,38 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Sign Up</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="../scss/scss.css">
-  </head>
-  <body>
-    <h3><a href = "../index.html"></a><img src="../images/Bb_logo.png" alt="Logo"height="100" width="200"></a></h3>
-    <div class="signup-box">
-      <h1>회원가입</h1>
-      <h4>BEST! 베스트, 큰교육에 오신걸 환영합니다</h4>
-      <form action ="join.php" method="post">
-        <label>성</label>
-        <input type="text" name="l_name" placeholder="" />
-        <label>이름</label>
-        <input type="text" name="f_name" placeholder="" />
-        <label>아이디</label>
-        <input type="id" name="id" placeholder="" />
-        <label>비밀번호</label>
-        <input type="password" name="pw" placeholder="" />
-        <label>비밀번호 확인하기</label>
-        <input type="password" placeholder="" />
-        <input type="submit" class="btn btn-warning" value = "저장" />
-      </form>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+  <title>join</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="../scss/scss.css">
+</head>
+<body>
+  <form action="join_action.php" method="post" class="join-form">
+    <h3><a href = "../index.html"><img src="../images/Bb_logo.png" alt="Logo"height="100" width="200"></a></h3>
+    <h1>회원가입</h1>
+    <div class="textb">
+      <input type="text" required>
+      <div class="placeholder">성</div>
     </div>
-    <p class="para-2">
-      계정이 이미 있으신가요? <a href="../login/">여기서 로그인하세요 !</a>
-    </p>
-  </body>
+
+    <div class="textb">
+      <input type="text" required>
+      <div class="placeholder">이름</div>
+    </div>
+
+    <div class="textb">
+      <input type="text" required>
+      <div class="placeholder">아이디</div>
+    </div>
+
+    <div class="textb">
+      <input type="password" required>
+      <div class="placeholder">비밀번호</div>
+      <div class="show-password fas fa-eye-slash"></div>
+    </div>
+
+    <div class="textb">
+      <input type="password" required>
+      <div class="placeholder">비밀번호확인</div>
+      <div class="show-password2 fas fa-eye-slash"></div>
+    </div>
+
+
+    <button class="btn">회원가입하기</button>
+    <h2>계정이 있으신가요?</h2>
+    <h2><a href="../login/">여기서 로그인을 하세요 !</a></h2>
+  </form>
+
+  <script>
+    var fields = document.querySelectorAll(".textb input");
+    var btn = document.querySelector(".btn");
+    function check(){
+      if(fields[0].value != "" && fields[1].value != "" && fields[2].value != "" && fields[3].value != "" && fields[4].value != "")
+        btn.disabled = false;
+      else
+        btn.disabled = true;  
+    }
+
+    fields[0].addEventListener("keyup",check);
+    fields[1].addEventListener("keyup",check);
+
+    document.querySelector(".show-password").addEventListener("click",function(){
+      if(this.classList[2] == "fa-eye-slash"){
+        this.classList.remove("fa-eye-slash");
+        this.classList.add("fa-eye");
+        fields[3].type = "text";
+      }else{
+        this.classList.remove("fa-eye");
+        this.classList.add("fa-eye-slash");
+        fields[3].type = "password";
+      }
+    });
+    document.querySelector(".show-password2").addEventListener("click",function(){
+      if(this.classList[2] == "fa-eye-slash"){
+        this.classList.remove("fa-eye-slash");
+        this.classList.add("fa-eye");
+        fields[4].type = "text";
+      }else{
+        this.classList.remove("fa-eye");
+        this.classList.add("fa-eye-slash");
+        fields[4].type = "password";
+      }
+    });
+  </script>
   <script type="text/javascript" src="./plugins/jquery-1.10.2.min.js"></script>
   <script type="text/javascript" src="./plugins/jquery.form.js"></script>
   <script type="text/javascript" src="./plugins/bootstrap/js/bootstrap.min.js"></script>
   
   <script type="text/javascript" src="./js/custom.js"></script>
   <script type="text/javascript" src="./js/header_helpers.js"></script>
+  
+</body>
 </html>

@@ -4,8 +4,13 @@ $pw = $_POST["pw"];
 $l_name = $_POST["l_name"];
 $f_name = $_POST["f_name"];
 
+
+$db_host = "localhost"; 
+$db_user = "bigeducation"; 
+$db_passwd = "dusrntlf0!";
+$db_name = "bigeducation"; 
+$conn = mysqli_connect($db_host,$db_user,$db_passwd,$db_name);
 # insert sql 작성
-$con = mysqli_connect("127.0.0.1:5501","user","1234","BestBigEducation") or die ("Can't access DB");
 $query = "INSERT INTO user (id, pw, l_name, f_name) VALUES('$id', '$pw', '$l_name', '$f_name')";
 $resut=mysqli_query($con,$query);
 if(!$result) 
@@ -15,3 +20,5 @@ if(!$result)
 } else {?>
     <script> alert('회원가입에 실패했습니다.\n다시 시도해 주세요.'); location.href=".."; </script>
 <?php } ?>
+
+
