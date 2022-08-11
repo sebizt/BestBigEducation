@@ -13,22 +13,22 @@
     <h3><a href = "../index.html"><img src="../images/Bb_logo.png" alt="Logo"height="100" width="200"></a></h3>
     <h1>회원가입</h1>
     <div class="textb">
-      <input type="text" required>
+      <input type="text" name = "l_name" required>
       <div class="placeholder">성</div>
     </div>
 
     <div class="textb">
-      <input type="text" required>
+      <input type="text" name = "f_name" required>
       <div class="placeholder">이름</div>
     </div>
 
     <div class="textb">
-      <input type="text" required>
+      <input type="text" name = "id" required>
       <div class="placeholder">아이디</div>
     </div>
 
     <div class="textb">
-      <input type="password" required>
+      <input type="password" name = "pw" required>
       <div class="placeholder">비밀번호</div>
       <div class="show-password fas fa-eye-slash"></div>
     </div>
@@ -57,6 +57,9 @@
 
     fields[0].addEventListener("keyup",check);
     fields[1].addEventListener("keyup",check);
+    fields[2].addEventListener("keyup",check);
+    fields[3].addEventListener("keyup",check);
+    fields[4].addEventListener("keyup",check);
 
     document.querySelector(".show-password").addEventListener("click",function(){
       if(this.classList[2] == "fa-eye-slash"){
