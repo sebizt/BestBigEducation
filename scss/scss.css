@@ -3189,6 +3189,7 @@ body {
   font-family: 'Middleschool_student';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
   color: #000000;
+  font-weight: 800;
 }
 
 a {
@@ -3232,13 +3233,6 @@ a:hover {
 .btn .fa {
   color: #fff;
   margin-right: 5px;
-}
-
-@font-face {
-  font-family: 'Middleschool_student';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
 }
 
 .bigsummary {
@@ -3552,9 +3546,9 @@ blockquote {
 }
 
 .header .main-nav .nav .nav-item {
-  font-weight: 300;
+  font-weight: 600;
   /*text-transform: uppercase;*/
-  font-size: 18px;
+  font-size: 27px;
   margin-right: 0;
 }
 
@@ -4338,7 +4332,7 @@ svg {
 
   .feature-title,
   .promo .row h1.firstpagetitle {
-    font-size: 32px !important;
+    font-size: 50px !important;
   }
 
   .downloadsize {
@@ -4548,7 +4542,7 @@ h2.docs-subtitle {
 }
 
 .intro {
-  padding-bottom: 20px !important;
+  padding-bottom: 300px !important;
 }
 
 .active {
@@ -4657,7 +4651,7 @@ h2.docs-subtitle {
 
   .feature-title,
   .promo .row h1.firstpagetitle {
-    font-size: 28px !important;
+    font-size: 25px !important;
   }
 
   #features .feature-panel .content {
@@ -5553,7 +5547,10 @@ h3.custom-accordion-title {
   margin-top: 20px;
 }
 
-h1,
+h1{
+  font-weight: 800;
+  font-size: 50px;
+}
 h2,
 h3,
 h4,
@@ -5853,7 +5850,7 @@ ul li.no-bullet {
 
 .feature-title,
 .promo .row h1.firstpagetitle {
-  font-size: 45px;
+  font-size: 50px;
 }
 
 .feature-title {
@@ -5897,7 +5894,7 @@ blockquote cite {
 }
 
 .padding-top-page {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .padding-features {
@@ -6049,7 +6046,7 @@ blockquote cite {
 }
 
 .nav-btn {
-  font-size: 18px;
+  font-size: 22px;
   color: white;
   height: 34px;
   display: inline-flex;
@@ -6070,12 +6067,12 @@ blockquote cite {
 }
 
 .nav-btn-search {
-  width: 40px;
+  width: 45px;
   padding: 10px;
 }
 
 .nav-btn-login {
-  width: 70px;
+  width: 56px;
   padding: 10px;
 }
 
