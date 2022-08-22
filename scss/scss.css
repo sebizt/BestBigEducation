@@ -5340,7 +5340,7 @@ h3.custom-accordion-title {
 
 @media (min-width: 768px) and (max-width: 992px) {
   #features div.screenshot-container div.content {
-    height: 265px;
+    height: 285px;
     margin: 0;
   }
 
@@ -5349,19 +5349,19 @@ h3.custom-accordion-title {
   }
 
   .screenshot-image {
-    max-height: 170px;
-    max-width: 273px;
-    width: 273px;
+    max-height: 220px;
+    max-width: 380px;
+    width: 380px;
   }
 
   .screenshot {
-    height: 170px;
+    height: 220px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   #features div.screenshot-container div.content {
-    height: 270px;
+    height: 330px;
     margin: 0;
   }
 
@@ -5370,19 +5370,19 @@ h3.custom-accordion-title {
   }
 
   .screenshot-image {
-    max-height: 140px;
-    max-width: 221px;
-    width: 221px;
+    max-height: 270px;
+    max-width: 600px;
+    width: 600px;
   }
 
   .screenshot {
-    height: 160px;
+    height: 270px;
   }
 }
 
 @media (min-width: 1200px) {
   #features div.screenshot-container div.content {
-    height: 320px;
+    height: 500px;
     margin: 0;
   }
 
@@ -5391,13 +5391,13 @@ h3.custom-accordion-title {
   }
 
   .screenshot-image {
-    max-height: 226px;
-    max-width: 280px;
-    width: 280px;
+    max-height: 420px;
+    max-width: 800px;
+    width: 800px;
   }
 
   .screenshot {
-    height: 226px;
+    height: 420px;
   }
 }
 
