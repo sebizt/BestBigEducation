@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -250,8 +250,8 @@ input[type="submit"] {
   min-height: 45px;
   outline: none;
   border: none;
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
   font-size: 0.813em;
   line-height: 1.85;
   border-radius: 0;
@@ -2594,8 +2594,8 @@ li.pingback:first-child {
 .gallery-caption {
   color: #8c8c8c;
   display: block;
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
   font-size: 12px;
   padding: 0.5em 0;
 }
@@ -3068,8 +3068,8 @@ li.pingback:first-child {
   min-height: 45px;
   outline: none;
   border: none;
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
   font-size: 0.813em;
   line-height: 1.85;
   border-radius: 0;
@@ -3108,28 +3108,28 @@ li.pingback:first-child {
 
 .entry-content p {
   font-weight: lighter !important;
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
 }
 
 .entry-title {
   font-size: 30px !important;
   font-weight: normal !important;
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
 }
 
 .entry-header {
   font-weight: normal !important;
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
   padding-top: 1em;
 }
 
 .entry-content article {
   font-weight: lighter !important;
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
 }
 
 #blog_images_ img {
@@ -3186,9 +3186,9 @@ blockquote cite {
 }
 
 body {
-  font-family: 'Cafe24Ssurround';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
-  color: #351400;
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+  color: #000000;
 }
 
 a {
@@ -3234,8 +3234,17 @@ a:hover {
   margin-right: 5px;
 }
 
+@font-face {
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .bigsummary {
-  font-size: 18px;
+  font-family: 'Middleschool_student';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+  font-size: 30px;
 }
 
 .page-background {
