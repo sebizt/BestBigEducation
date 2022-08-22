@@ -104,7 +104,7 @@ h3 {
 
 .btn {
   display: block;
-  width: 400px;
+  width: 200px;
   height: 40px;
   margin: 40px auto;
   background-color: #B3D9FF;
@@ -116,6 +116,7 @@ h3 {
   box-shadow: 3px 3px 3px #ddd;
   transition: .3s linear;
 }
+
 .btn:active{
   box-shadow: none;
 }

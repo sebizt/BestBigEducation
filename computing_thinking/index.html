@@ -3,46 +3,12 @@
 <head>
     <title>Best! Big Education</title>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Orange Data Mining Toolbox">
-    <meta name="author" content="Bioinformatics Laboratory, University of Ljubljana">
-    <meta name="google-site-verification" content="DS7GH5M7ABi78pIC2rMcTBFx-UeBFObXOeLvR7Ow3EQ" />
-
     <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../plugins/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="../plugins/lightgallery/css/lightgallery.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-
-
     <link rel="stylesheet" href="../scss/scss.css">
-    <script id="dsq-count-scr" src="//orange-4.disqus.com/count.js" async></script>
-
-    <noscript>
-        <style>
-            .jsonly {
-                display: none !important;
-            }
-        </style>
-    </noscript>
-    <script type="text/javascript">
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-528382-1', 'auto');
-        ga('require', 'linkid');
-        ga('send', 'pageview');
-
-
-    </script>
-
-
-
 
     <script type="text/javascript" src="../plugins/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="../plugins/jquery.form.js"></script>
@@ -50,43 +16,6 @@
 
     <script type="text/javascript" src="../js/custom.js"></script>
     <script type="text/javascript" src="../js/header_helpers.js"></script>
-
-
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-T5X4T27');</script>
-
-
-
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5X4T27" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-
-
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-
-            $('a').off("click").click(function (event) {
-                ga('send', 'event', "a", event.type, $(this).attr("id"), 1);
-            });
-
-            $('[class *= trackClicks_]').off("click").click(function (event) {
-                var classList = $(this).attr('class').split(/\s+/);
-                var trackname = "";
-                $.each(classList, function (index, item) {
-                    if (item.indexOf('trackClicks_') === 0) {
-                        trackname = item;
-                    }
-                });
-                ga('send', 'event', "a", event.type, trackname, 1);
-            });
-        });
-    </script>
 
 </head>
 
@@ -111,13 +40,15 @@
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
 
+                        <li class="nav-item"><a id="header-screenshots-link" href="../blog/">BLOG</a></li>
+
                         <li class="nav-item"><a id="header-screenshots-link" href="../computing_thinking/">컴퓨팅 사고</a></li>
 
-                        <li class="nav-item"><a id="header-screenshots-link" href="../curriculum_convergence_coding/">교과 융합 사고</a></li>
+                        <li class="nav-item"><a id="header-screenshots-link" href="../curriculum_coding/">교과 코딩</a></li>
+                        
+                        <li class="nav-item"><a id="header-screenshots-link" href="../ai_education/">AI 교육</a></li>
 
                         <li class="nav-item"><a id="header-screenshots-link" href="../learning_competency_diagnostics/">학습 역량 진단</a></li>
-
-                        <li class="nav-item"><a id="header-screenshots-link" href="../question_bank/">문제 은행</a></li>
 
                         <li class="nav-search-wrapper">
                             <div>
@@ -130,6 +61,17 @@
                                 <input type="text" class="header-search-input jsonly search-widget-workflow nav-item"
                                     id="search-header" placeholder="Search" tabindex="1"
                                     onkeydown="check_key_header(event)" hidden autofocus />
+                            </div>
+                        </li>
+                        <li class="nav-search-wrapper">
+                            <div>
+                                <a class="btn nav-btn-login btn-warning nav-btn nav-btn-desktop"
+                                    id="search-btn-js" role="button" href="../login/"> login
+                                </a>
+                                <a class="btn nav-btn-login btn-warning nav-btn nav-btn-mobile"
+                                    role="button" href="../login/"> login
+                                    
+                                </a>                                 
                             </div>
                         </li>
 

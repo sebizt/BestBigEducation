@@ -7,13 +7,13 @@ $db_user = "bigeducation";
 $db_passwd = "dusrntlf0!";
 $db_name = "bigeducation"; 
 $conn = mysqli_connect($db_host,$db_user,$db_passwd,$db_name);
-# insert sql 작성
-$query = "SELECT pw FROM user WHERE id =  '" . $id . "';";
+
+# select sql 작성
+$query = "SELECT pw FROM user WHERE id = tnwjd123;";
 $result=mysqli_query($con, $query);
-
-if(!$result) 
+echo ($result);
+if(result === $pw) 
 {?>
-
     <script> alert('로그인 성공'); location.href=".."; </script> 
 <?php
 } else { ?>
