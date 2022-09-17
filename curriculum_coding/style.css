@@ -1,13 +1,11 @@
 body{
 	margin-top: 146px;
-	font-family: 'Trebuchet MS', serif;
 	line-height: 1.6
 }
 .container{
 	width: 500px;
 	margin: 0 auto;
 }
-
 ul.tabs{
 	margin: 0px;
 	padding: 0px;
